@@ -10,6 +10,14 @@
         $ ssh user-vpn@192.168.10.80
         Password: pass-vpn
 
+## verificar que se conecte a los 2 slaves SIN password.
+
+        $ ssh user-vpn@192.168.10.81
+
+        $ ssh user-vpn@192.168.10.82
+
+SI le pide password alguno de los 2 slaves anteriores, por favor realice el paso de la Instalación Manual de las claves.
+
 ## instalar las claves ssh para cada usuario (solo se hace una vez):
 
 // conectar a master:
